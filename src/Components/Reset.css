@@ -1,0 +1,49 @@
+.reset-wrapper{
+    display: flex;
+    justify-content: center;
+   
+    }
+    .reset-card{
+       margin-top:10rem; 
+       width:30vw;
+      
+    }
+  
+  
+  
+  
+   @media only screen and (max-width:767px) and (min-width:200px) {
+  
+    .reset-wrapper{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+     
+      }
+    .reset-card{
+    
+      width:80vw;
+      
+      margin:5rem 2rem;
+  
+      
+   }
+  
+  
+   }
+   @media only screen and (max-width:1023px) and (min-width:768px) {
+  
+  
+    .reset-card{
+      margin-top:3rem; 
+      width:80vw;
+      margin-left: 3%;
+      width:40vw;
+  
+      
+   }
+  
+  
+  
+   }
+  

@@ -1,0 +1,327 @@
+.dashboard-container{
+    display:flex;
+    width:100vw;
+    background-color: #dcdde1;
+    /* overflow: scroll;
+    scroll-behavior: smooth; */
+    
+    
+
+    
+
+}
+.dashboard-sidebar{
+    width:20%;
+    background-color: #0d0d0d;
+    margin: 2rem 3rem;
+    border-radius: 2rem;
+    color:white;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2rem;
+}
+.options> *{
+    margin: 1.5rem 0;
+    display:flex;
+    color:#adaeb2
+
+
+}
+.options > span{
+   font-size: 2rem;
+  
+}
+.options2-cont{
+    display:flex;
+    height:100%;
+    width:100%;
+    flex-direction: column;
+    justify-content: flex-end; 
+    margin-bottom: 4rem;
+    padding-left: 4rem;
+    color:#adaeb2;
+}
+
+.dashboard{
+    display:flex;
+    margin-top: 4rem;
+    justify-content: center;
+  
+   
+  
+    
+}
+  .active{
+     color:white;
+ }
+
+
+.main-dashboard{
+    width: calc(100vw - 40%);
+
+  
+}
+.header{
+    display:flex;
+    width:100%;
+  
+}
+
+.data-boxes{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+  
+    
+
+    
+}
+.data-box{
+    height:8rem;
+    width:12rem;
+    margin:2rem;
+    border-radius: 2rem;
+    
+
+
+}
+.data-box .data{
+    margin-left: 1rem;
+   
+   
+   
+
+}
+.data-box .icon{
+    display:flex;
+    justify-content: flex-end;
+    margin: 1rem 1rem;
+}
+.box1{
+ background-color:  #c9eed5;
+}
+.box2{
+  background-color: #f7e4d2;  
+}
+.box3{
+  background-color: #f9c0c0;  
+}
+.box4{
+    background-color: #c9c6f3;
+}
+
+.activities-container{
+    width:75%;
+    margin-left: 4rem;
+    position:relative;
+    border-radius: 2rem;
+    background-color: white;
+    height:24rem;
+
+}
+.activities-container .line-chart{
+    margin-left:5rem   
+}
+
+
+.product-schedule-card{
+    display:flex;
+    width:100vw;
+    height:20rem;
+    margin-bottom: 5rem;
+    flex-wrap: wrap;
+  
+    
+}
+.product-card{
+    width:30%;
+    border-radius: 2rem;
+    background-color: white;
+    height:100%;
+    margin: 2rem 2rem;
+ 
+
+
+
+}
+ .text{
+    display:flex;
+    width:100%;
+    justify-content: space-between;
+}
+
+.schedule-card{
+    width:30%;
+ 
+    height:100%;
+    margin: 2rem 3rem;
+    border-radius: 2rem;
+    background-color: white;
+}
+
+.data-cont{
+    display:flex;
+}
+.pie-chart{
+    position:relative;
+     width:10rem;
+     height:8rem;
+
+   
+}
+.schedule-card .info{
+    display:flex;
+    margin-top:"1rem";
+    flex-direction: column;
+   
+
+}
+.info1, .info2{
+    display:flex;
+    margin-top:1rem
+}
+
+
+
+
+@media screen and (max-width:1450px){
+ 
+    .dashboard-sidebar{
+      margin-top:15rem;
+        width:30%;
+        height:50rem;
+        margin-left: 2rem;
+
+    }
+   
+
+    .header{
+        display:flex;
+        width:100vw;
+        height:4rem;
+        position: absolute;
+        top:0;
+        left:0
+    }
+    .data-boxes{
+        margin-top:7rem;
+        margin-left: 8rem;
+    }
+    .activities-container{
+        width:100%
+    }
+    .activities-container .line-chart{
+        margin-left:2rem   
+    }
+   
+
+    .product-card, .schedule-card{
+        width:30rem;
+       
+    }
+  
+
+}
+
+@media screen and (max-width:900px){
+    .dashboard-sidebar{
+        display: none;
+        width:0%
+    }
+    .header{
+        width:100vw
+    }
+    .main-dashboard{
+        width:100vw;
+    }
+    .data-boxes{
+        width:100%;
+        margin-left: 2rem;
+    }
+    .activities-container{
+        width:auto
+    }
+    .activities-container .line-chart{
+        margin-left:3rem   
+    }
+    
+    .product-card , .schedule-card{
+       width:55%;
+       margin-left: 12rem;
+    
+    }
+ 
+
+}
+
+
+
+@media screen and (max-width:650px){
+ .activities-container{
+   
+  height:25rem;
+  margin-left: 1rem;
+  
+ }
+ .activities-container .line-chart{
+  margin-left: 0rem;
+  
+ }
+ .product-card, .schedule-card{
+    margin-left: 5rem;
+    height: 20rem;
+    margin-top: 2rem;
+    width:70%
+    
+ }
+}
+
+@media screen and (max-width:400px){
+   
+
+  .data-boxes{
+    margin-left:3rem;
+  }
+    .product-card, .schedule-card{
+       margin-left: 3rem;
+       height: 25.5rem;
+       margin-top: 2rem;
+       width:90%;
+      
+       
+    }
+    .schedule-card{
+     
+        padding: 0 2rem;
+    }
+
+  
+   
+   
+   }
+
+@media screen and (min-width:2000px){
+    .data-boxes{
+        margin-left: 5rem;
+    }
+    .data-box{
+        width:20rem;
+        height:10rem
+    }
+    .activities-container{
+        width:80%;
+        margin-left: 10rem;
+    }
+    .activities-container .line-chart{
+        margin-left:15rem
+    }
+    .product-schedule-card{
+        margin-left: 5rem;
+    }
+    .product-card, .schedule-card{
+        width:30%;
+        
+    }
+
+}
