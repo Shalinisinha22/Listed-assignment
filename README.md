@@ -2,6 +2,25 @@
 
 Project link: https://assignment-aa863.web.app/
 
+
+
+
+![1](https://github.com/Shalinisinha22/Listed-assignment/assets/122859073/97dd8e93-ca8b-491c-bcf6-1ef8a69c24fe)
+
+
+
+
+
+
+![2](https://github.com/Shalinisinha22/Listed-assignment/assets/122859073/343d17e7-5adc-4ef8-b3e2-9881b7cf8428)
+
+
+
+
+
+
+
+
 ## Available Scripts
 
 In the project directory, you can run:
